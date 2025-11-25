@@ -7,7 +7,7 @@ export interface StandardArticle {
   description: string;
   originalSourceObj?: any; 
   
-  // You added these in the previous step, so include them here too:
+ 
   verification_count?: number;
   other_sources?: string[];
   verified_by?: string[];
